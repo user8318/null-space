@@ -13,7 +13,7 @@ set "RAW_NAME=space.wav"
 
 ## 首次使用
 
-运行一次 `setup.cmd`。它会将脚本所在目录写入当前用户的 `space_path` 环境变量、将 `%space_path%` 加入用户 Path，并隐藏该目录及其内容。
+运行一次 `setup.cmd`。它会将脚本所在目录直接加入当前用户的 Path，并隐藏该目录及其内容。
 
 设置完成后，按 `Win+R` 打开“运行”，输入下方命令。若找不到 `att` 或 `det`，请重启“Windows 资源管理器”后重试。
 
